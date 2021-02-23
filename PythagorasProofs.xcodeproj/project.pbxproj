@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,18 @@
 		4E76B5AC24FD5F1500132F52 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E76B5AB24FD5F1500132F52 /* Preview Assets.xcassets */; };
 		4E76B5B724FD5F1500132F52 /* PythagorasProofsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5B624FD5F1500132F52 /* PythagorasProofsTests.swift */; };
 		4E76B5C224FD5F1500132F52 /* PythagorasProofsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5C124FD5F1500132F52 /* PythagorasProofsUITests.swift */; };
+		4E76B5D124FD5F9400132F52 /* PureSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 4E76B5D024FD5F9400132F52 /* PureSwiftUI */; };
+		4E76B5D324FD602200132F52 /* RightAngledTriangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5D224FD602200132F52 /* RightAngledTriangle.swift */; };
+		4E76B5D724FD67B900132F52 /* PythagorasTheorem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5D624FD67B900132F52 /* PythagorasTheorem.swift */; };
+		4E76B5D924FD698200132F52 /* ProofOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5D824FD698200132F52 /* ProofOne.swift */; };
+		4E76B5DB24FD6E3200132F52 /* ProofOnePt2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5DA24FD6E3200132F52 /* ProofOnePt2.swift */; };
+		4E76B5DD24FD72DC00132F52 /* ProofTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5DC24FD72DC00132F52 /* ProofTwo.swift */; };
+		4E76B5DF24FD76A000132F52 /* ProofThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5DE24FD76A000132F52 /* ProofThree.swift */; };
+		4E76B5E124FD7E0400132F52 /* ProofFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5E024FD7E0400132F52 /* ProofFour.swift */; };
+		4E76B5E324FD853200132F52 /* ProofFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5E224FD853200132F52 /* ProofFive.swift */; };
+		4E76B5E524FDAFC200132F52 /* ProofSix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5E424FDAFC200132F52 /* ProofSix.swift */; };
+		4E76B5E724FDB5D800132F52 /* Explained.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5E624FDB5D800132F52 /* Explained.swift */; };
+		4E76B5E924FDCB0700132F52 /* ProofSeven.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E76B5E824FDCB0700132F52 /* ProofSeven.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +57,17 @@
 		4E76B5BD24FD5F1500132F52 /* PythagorasProofsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PythagorasProofsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E76B5C124FD5F1500132F52 /* PythagorasProofsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagorasProofsUITests.swift; sourceTree = "<group>"; };
 		4E76B5C324FD5F1500132F52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E76B5D224FD602200132F52 /* RightAngledTriangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RightAngledTriangle.swift; sourceTree = "<group>"; };
+		4E76B5D624FD67B900132F52 /* PythagorasTheorem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PythagorasTheorem.swift; sourceTree = "<group>"; };
+		4E76B5D824FD698200132F52 /* ProofOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofOne.swift; sourceTree = "<group>"; };
+		4E76B5DA24FD6E3200132F52 /* ProofOnePt2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofOnePt2.swift; sourceTree = "<group>"; };
+		4E76B5DC24FD72DC00132F52 /* ProofTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofTwo.swift; sourceTree = "<group>"; };
+		4E76B5DE24FD76A000132F52 /* ProofThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofThree.swift; sourceTree = "<group>"; };
+		4E76B5E024FD7E0400132F52 /* ProofFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofFour.swift; sourceTree = "<group>"; };
+		4E76B5E224FD853200132F52 /* ProofFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofFive.swift; sourceTree = "<group>"; };
+		4E76B5E424FDAFC200132F52 /* ProofSix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofSix.swift; sourceTree = "<group>"; };
+		4E76B5E624FDB5D800132F52 /* Explained.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Explained.swift; sourceTree = "<group>"; };
+		4E76B5E824FDCB0700132F52 /* ProofSeven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProofSeven.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E76B5D124FD5F9400132F52 /* PureSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +121,17 @@
 			children = (
 				4E76B5A424FD5F1100132F52 /* PythagorasProofsApp.swift */,
 				4E76B5A624FD5F1100132F52 /* ContentView.swift */,
+				4E76B5D624FD67B900132F52 /* PythagorasTheorem.swift */,
+				4E76B5E624FDB5D800132F52 /* Explained.swift */,
+				4E76B5D224FD602200132F52 /* RightAngledTriangle.swift */,
+				4E76B5D824FD698200132F52 /* ProofOne.swift */,
+				4E76B5DA24FD6E3200132F52 /* ProofOnePt2.swift */,
+				4E76B5DC24FD72DC00132F52 /* ProofTwo.swift */,
+				4E76B5DE24FD76A000132F52 /* ProofThree.swift */,
+				4E76B5E024FD7E0400132F52 /* ProofFour.swift */,
+				4E76B5E224FD853200132F52 /* ProofFive.swift */,
+				4E76B5E424FDAFC200132F52 /* ProofSix.swift */,
+				4E76B5E824FDCB0700132F52 /* ProofSeven.swift */,
 				4E76B5A824FD5F1500132F52 /* Assets.xcassets */,
 				4E76B5AD24FD5F1500132F52 /* Info.plist */,
 				4E76B5AA24FD5F1500132F52 /* Preview Content */,
@@ -146,6 +181,9 @@
 			dependencies = (
 			);
 			name = PythagorasProofs;
+			packageProductDependencies = (
+				4E76B5D024FD5F9400132F52 /* PureSwiftUI */,
+			);
 			productName = PythagorasProofs;
 			productReference = 4E76B5A124FD5F1100132F52 /* PythagorasProofs.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +255,9 @@
 				Base,
 			);
 			mainGroup = 4E76B59824FD5F1100132F52;
+			packageReferences = (
+				4E76B5CF24FD5F9400132F52 /* XCRemoteSwiftPackageReference "pure-swift-ui" */,
+			);
 			productRefGroup = 4E76B5A224FD5F1100132F52 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -259,8 +300,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E76B5D724FD67B900132F52 /* PythagorasTheorem.swift in Sources */,
+				4E76B5E924FDCB0700132F52 /* ProofSeven.swift in Sources */,
+				4E76B5DF24FD76A000132F52 /* ProofThree.swift in Sources */,
+				4E76B5E524FDAFC200132F52 /* ProofSix.swift in Sources */,
 				4E76B5A724FD5F1100132F52 /* ContentView.swift in Sources */,
+				4E76B5E724FDB5D800132F52 /* Explained.swift in Sources */,
+				4E76B5D324FD602200132F52 /* RightAngledTriangle.swift in Sources */,
+				4E76B5E324FD853200132F52 /* ProofFive.swift in Sources */,
 				4E76B5A524FD5F1100132F52 /* PythagorasProofsApp.swift in Sources */,
+				4E76B5E124FD7E0400132F52 /* ProofFour.swift in Sources */,
+				4E76B5DB24FD6E3200132F52 /* ProofOnePt2.swift in Sources */,
+				4E76B5D924FD698200132F52 /* ProofOne.swift in Sources */,
+				4E76B5DD24FD72DC00132F52 /* ProofTwo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,6 +632,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4E76B5CF24FD5F9400132F52 /* XCRemoteSwiftPackageReference "pure-swift-ui" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/CodeSlicing/pure-swift-ui";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.15.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4E76B5D024FD5F9400132F52 /* PureSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4E76B5CF24FD5F9400132F52 /* XCRemoteSwiftPackageReference "pure-swift-ui" */;
+			productName = PureSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 4E76B59924FD5F1100132F52 /* Project object */;
 }
